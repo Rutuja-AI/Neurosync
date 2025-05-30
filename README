@@ -1,0 +1,78 @@
+
+# 🧠 NEUROSYNC – Beast Mode Control Panel
+
+NEUROSYNC is an AI-powered fitness and emotion dashboard that syncs with **Google Fit** in real-time to monitor physical activity and suggest wellness tips. Built using **Streamlit**, this dashboard provides personalized insights, performance goals, and emotion tracking based on your steps and movement data.
+
+---
+
+## 🚀 Features
+
+- 🔁 **Real-time Step Syncing** using Google Fit API
+- 📊 **Live Analytics** for steps, calories, and distance
+- 🎭 **Emotion Detection** based on physical activity
+- 💬 **AI-generated Fitness Suggestions**
+- 🎯 **Goal Tracking** with motivational feedback
+- 🧠 **Streamlit UI** with smooth, modern design
+
+---
+
+## 📷 Screenshot
+
+> _Dashboard preview available after running the app._
+
+---
+
+## 🔧 Tech Stack
+
+- **Python**
+- **Streamlit**
+- **Google Fit API (OAuth 2.0)**
+- **Plotly / Matplotlib**
+- **Pandas / NumPy**
+
+---
+
+## 🔐 Permissions Required
+
+This app requests the following scopes from your Google account:
+- `fitness.activity.read`
+- `fitness.body.read`
+- `fitness.location.read`
+
+---
+
+## 🛠️ Setup Instructions
+
+1. Clone the repo:
+```bash
+git clone https://github.com/yourusername/neurosync.git
+cd neurosync
+```
+
+2. Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+3. Set up your `credentials.json` (Google Fit API credentials).
+
+4. Run the app:
+```bash
+streamlit run app.py
+```
+
+---
+
+## 👩‍💻 Author
+
+**Rutuja Dinesh Morankar**  
+[LinkedIn](https://www.linkedin.com/in/rutuja-morankar-88194828a/)  
+*AI-ML Student | Healthcare & Fitness Tech Enthusiast*
+
+---
+
+## 🌟 Live Preview
+
+Coming soon...
+
+---
